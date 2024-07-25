@@ -49,7 +49,7 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building a JS Animation library",
+    title: "building a full-stack open source discord alternative with live location sharing and everyting ",
     description: "The Inside Scoop",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -205,13 +205,15 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    handleClick:()=>{
+      window.open("https://github.com/dhatrishdixit","_blank")
+    }
   },
   {
     id: 2,
-    img: "/twit.svg",
-  },
-  {
-    id: 3,
     img: "/link.svg",
+    handleClick:()=>{
+      window.open("https://www.linkedin.com/in/dhatrish-singh-dixit-6625821a7/","_blank")
+    }
   },
 ];

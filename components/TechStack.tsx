@@ -5,14 +5,13 @@ import React from "react";
 import { companies, testimonials } from "@/data";
 import { InfiniteMovingCards } from "./ui/InfiniteCards";
 
-const Clients = () => {
+const TechStack = () => {
   return (
     <section id="testimonials" className="py-20">
       <h1 className="heading">
-        Kind words from
-        <span className="text-purple"> satisfied clients</span>
+        Worked on
+        <span className="text-purple"> Tech Stacks</span>
       </h1>
-
       <div className="flex flex-col items-center max-lg:mt-10">
         <div
          
@@ -49,4 +48,4 @@ const Clients = () => {
   );
 };
 
-export default Clients;
+export default TechStack;
